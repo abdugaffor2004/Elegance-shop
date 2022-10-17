@@ -1,3 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display&display=swap');
+
 *, *::after, *::before{
     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans' , sans-serif;
+}
+
+
+.nav {
+    padding: 40px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nav_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo, a.nav_logo {
+    font-size: 28px;
+    line-height: 38px;
+    text-decoration: none;
+    color: #000000;
+    opacity: 100%;
+}
+
+a.nav_logo:hover{
+    color: #F72464;
+    transition: all 0.4s ease;
+}
+
+
+
+.nav_list {
+    margin: 0;
+    padding: 0;
+    margin-left: -400px ;
+    display: flex;
+    list-style: none;
+    
+}
+
+
+.nav_item + .nav_item {
+    padding-left: 30px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.nav_link:hover{
+    color: #F72464;
+    transition: color 0.3s ease;
+}
+
+.nav_cart {
+}
+
+.nav_cart-link {
+    position:relative;
+    display: inline-block;
+    padding: 7px;
+    top: 5px;
+}
+
+.nav_cart-number{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% ;
+    top: -1px;
+    right:-4px;
+    width: 20px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    background: #F72464;
 }
