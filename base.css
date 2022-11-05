@@ -11,6 +11,10 @@ body{
     font-family: 'Noto Sans' , sans-serif;
 }
 
+.none{
+    display: none;
+}
+
 
 .nav {
     padding: 40px 0;
@@ -95,7 +99,7 @@ a.nav_logo:hover{
     background: #F72464;
 }
 
-/* header */
+/*Buttons*/
 
 .button_medium{
     padding: 5px 33px 11px 33px;
@@ -148,6 +152,11 @@ a.nav_logo:hover{
     transition: opacity 0.15s ease-in;
 }
 
+/* header */
+
+.header{
+    padding-bottom: 60px;
+}
 
 .header_row {
     display: flex;
@@ -179,4 +188,89 @@ a.nav_logo:hover{
     line-height: 150%;
     margin-bottom: 60px;
     
+}
+
+/*Section header*/
+
+.section-header {
+    text-align: center;
+}
+.section-header_title {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+
+    color: #000000;
+}
+.section-header_description {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #999999;
+    margin: 10px 0 0px 0;
+}
+
+/*Product*/
+
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.product-link{
+    text-decoration: none;
+    opacity: 100%;
+    display: inline-block;
+    transition: opacity 0.3s ease;
+}
+
+.product-link:hover{
+    opacity: 80% ;
+    
+}
+
+.product {
+    max-width: 270px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.product_img {
+    display: block;
+}
+
+.product_title {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin: 6px 0 12px 0;
+}
+
+.product_price {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.product_price-old {
+    color: #999999;
+    margin-right: 10px;
+}
+.product_price-new {
+    font-weight: bold;
+    color: #F72464;
+}
+
+.featured_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
 }
