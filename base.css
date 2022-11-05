@@ -140,14 +140,21 @@ a.nav_logo:hover{
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.219));
     cursor: pointer;
     opacity: 100%;
+    transition: all 0.3s ease;
 }
 
- .button_medium:hover, .button-large:hover, .button_small:hover{
+.button-large:hover{
+    background: #F72464;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+ .button_medium:hover, .button_small:hover{
     opacity: 75%;
     transition: opacity 0.15s ease-in;
 }
 
-.button_medium:active, .button-large:active, .button_small:active{
+.button_medium:active, .button_small:active{
     opacity: 65%;
     transition: opacity 0.15s ease-in;
 }
