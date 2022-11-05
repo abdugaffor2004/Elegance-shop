@@ -1,0 +1,19 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans' , sans-serif;
+}
+
+.none{
+    display: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
