@@ -46,3 +46,8 @@
     line-height: 21px;
 }
 
+.posts_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
