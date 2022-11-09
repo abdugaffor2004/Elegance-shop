@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Elegance Shop</title>
 
     <link rel="stylesheet" href="css/main.css">
@@ -17,7 +17,6 @@
             <div class="nav_row">
                 <a href="#" class="nav_logo">Elegance</a>
 
-                
                     <ul class="nav_list">
                         <li class="nav_item"> <a class="nav_link" href="#">Collection</a> </li>
                         <li class="nav_item"> <a class="nav_link" href="#">Men</a> </li>
@@ -26,20 +25,24 @@
                         <li class="nav_item"> <a class="nav_link" href="#">Faq</a> </li>
                     </ul>
                 
-
                 <div class="nav_cart">
 
                     <a class="nav_cart-link" href="#">
                         <span class="nav_cart-number">3</span>
                         <img src="img/shopping-cart.svg" alt="Cart">
                     </a>
+
+                    <button class="menuBtn" type="button">
+                        <span class="menuBtn_icon"></span>
+                    </button>
                     
                 </div>
+
             </div>
         </div>
     </nav>
 
-    <header class="header ">
+    <header class="header none">
 
         <div class="container">
             <div class="header_row">
@@ -59,7 +62,7 @@
 
     </header>
 
-    <main>
+    <main class="none">
 
         <section class="featured">
             <div class="container">
@@ -358,7 +361,7 @@
 
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
 
         <div class="footerLinks">
             <ul class="linkList">
@@ -395,8 +398,9 @@
         </div>
 
         <a class="footerLink" href="#">Github</a>
-    </footer>
+    </footer> -->
 
+    <script src="main.js"></script>
 </body>
 
 

@@ -1,0 +1,60 @@
+
+.menuBtn {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: none;
+    border: none;
+}
+.menuBtn_icon, .menuBtn_icon::after, .menuBtn_icon::before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -1px;
+    background-color: black;
+}
+
+
+.menuBtn_icon::after, .menuBtn_icon::before{
+    content: "";
+    transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
+}
+
+.menuBtn_icon::after{
+    transform: translateY(-9px);
+}
+
+.menuBtn_icon::before{
+    transform: translateY(9px);
+}
+
+
+/* Menu opening */
+
+/*.menuBtn_icon */ .active::after{
+    transform: rotate(42deg);
+    transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+}
+
+/*.menuBtn_icon */ .active::before{
+    transform: rotate(-42deg);
+    transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+}
+
+/*.menuBtn_icon */ .active{
+    background: transparent;
+    transition: all 0.1s ease-in;
+}
+
+
+
+@media(max-width:768px){
+
+    .menuBtn{
+        display: block;
+    }
+}
