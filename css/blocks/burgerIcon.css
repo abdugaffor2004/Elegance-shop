@@ -6,6 +6,8 @@
     position: relative;
     background: none;
     border: none;
+    position: relative;
+    z-index: 99;
 }
 .menuBtn_icon, .menuBtn_icon::after, .menuBtn_icon::before {
     position: absolute;
