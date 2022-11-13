@@ -40,7 +40,23 @@
     transition: all 0.3s ease;
 }
 
-.button-large:hover{
+.button_busket{
+    width: 100%;
+    padding: 5px 0 8px 0 ;
+    background: #fff;
+    border: 1px solid #F72464;
+    color: #777777;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Playfair Display';
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.219));
+    cursor: pointer;
+    opacity: 100%;
+    transition: all 0.3s ease;
+}
+
+.button-large:hover, .button_busket:hover{
     background: #F72464;
     border: 1px solid #fff;
     color: #fff;

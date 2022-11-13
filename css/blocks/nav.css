@@ -118,6 +118,10 @@ a.nav_logo:hover{
         transition: opacity 0.2s ease-in;
     }
 
+    .nav_list-holder_visible{
+        opacity: 1;
+    }
+
 
     .nav_list{
         display: block;
@@ -129,8 +133,20 @@ a.nav_logo:hover{
         width: 260px;
         margin: 0;
         padding: 0;
+        
     }
 
+    /* Выдвижение и задвиг сайдбара  */
+    .nav_list-holder .nav_list{
+        transform: translateX(-100%);
+        transition: transform 0.2s ease-in;
+    }
+
+    .nav_list-holder_visible .nav_list{
+        transform: translateX(0%);
+    }
+
+    /* --------------------------------------------- */
     
     .nav_item{
         padding-left: 30px;
