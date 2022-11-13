@@ -82,6 +82,20 @@ a.nav_logo:hover{
     background: #F72464;
 }
 
+.home{
+    text-decoration: none;
+    color: #000000;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+
+.home:hover{
+    opacity: 0.5;
+}
+
+.home:active{
+    color: #F72464;
+}
 
 /* Adaptive */
 
