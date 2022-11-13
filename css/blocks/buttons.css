@@ -1,5 +1,5 @@
 .button_medium{
-    padding: 5px 33px 11px 33px;
+    padding: 0.192307em 1.269230em 0.423076em 1.269230em;
     color: #fff;
     background: #F72464;
     border-radius: 5px;
@@ -13,7 +13,7 @@
 }
 
 .button_small{
-    padding: 9px 30px 11px 30px;
+    padding: 0.5625em 1.875em 0.6875em 1.875em;
     color: #fff;
     background: #F72464;
     border-radius: 5px;
@@ -26,7 +26,7 @@
 }
 
 .button-large{
-    padding: 9px 40px 12px 40px;
+    padding: 0.5625em 2.5em 0.75em 2.5em;
     background: #fff;
     border: 1px solid #F72464;
     color: #777777;
@@ -42,7 +42,7 @@
 
 .button_busket{
     width: 100%;
-    padding: 5px 0 8px 0 ;
+    padding: 0.3125em 0 0.5em 0 ;
     background: #fff;
     border: 1px solid #F72464;
     color: #777777;
