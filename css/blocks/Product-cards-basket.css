@@ -1,59 +1,13 @@
 
 
-.products-wrapper {
+/* .products_busket-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 40px;
-    
-}
+} */
 
-.product-link{
-    text-decoration: none;
-    opacity: 100%;
-    display: inline-block;
-    transition: opacity 0.3s ease;
-}
-
-.product-link:hover{
-    opacity: 80% ;
-    
-}
-
-.product {
-    max-width: 270px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.product_img {
-    display: block;
-}
-
-.product_title {
-    font-family: 'Playfair Display';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #000000;
-    margin: 6px 0 12px 0;
-}
-
-.product_price {
-    font-family: 'Noto Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-}
-
-.product_price-old {
-    color: #999999;
-    margin-right: 10px;
-}
-.product_price-new {
-    font-weight: bold;
-    color: #F72464;
-}
+/* Несколько дополнений для карточек в секции корзина (кнопка, счетчик) */
 
 .product_addition{
     display: flex;
@@ -100,3 +54,4 @@
 .counter_result{
     margin: 0 10px;
 }
+

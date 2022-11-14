@@ -24,6 +24,13 @@ img{
     margin: 0 auto;
 }
 
+.container_info{ 
+    /* из-за того что у простого контейнера max-width, и из-за этого ошибки */
+    width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
 .containerMini{
     width: 832px;
     margin: 0 auto;

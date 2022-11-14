@@ -57,3 +57,13 @@
     justify-content: center;
     margin-bottom: 70px;
 }
+
+@media(max-width: 1200px){
+    .products-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 45px;
+        row-gap: 30px;
+    }
+}
