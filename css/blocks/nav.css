@@ -134,6 +134,7 @@ a.nav_logo:hover{
 
     .nav_list-holder_visible{
         display: block;
+        position: fixed;
     }
 
 
