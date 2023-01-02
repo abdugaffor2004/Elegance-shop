@@ -49,6 +49,11 @@ input:focus{
     .joinForm{
         flex-wrap: wrap;
     }
+
+    .joinForm input {
+        height: 45px;
+        margin-bottom: 25px;
+    }
 }
 
 @media(max-width: 390px){
@@ -61,11 +66,5 @@ input:focus{
         font-size: 14px;
     }
 
-   
-
-    .joinForm input {
-        height: 45px;
-        margin-bottom: 25px;
-    }
 
 }
