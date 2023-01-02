@@ -32,6 +32,7 @@ img{
 }
 
 .containerMini{
-    width: 832px;
+    max-width: 832px;
     margin: 0 auto;
+    padding: 0 30px;
 }

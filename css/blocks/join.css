@@ -45,3 +45,23 @@ input:focus{
     outline: none;
 }
 
+@media(max-width: 390px){
+
+    .joinHeader{
+        font-size: 33px;
+    }
+
+    .joinText{
+        font-size: 14px;
+    }
+
+    .joinForm{
+        flex-wrap: wrap;
+    }
+
+    .joinForm input {
+        height: 45px;
+        margin-bottom: 25px;
+    }
+
+}
