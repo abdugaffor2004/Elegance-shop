@@ -45,6 +45,12 @@ input:focus{
     outline: none;
 }
 
+@media(max-width: 420px){
+    .joinForm{
+        flex-wrap: wrap;
+    }
+}
+
 @media(max-width: 390px){
 
     .joinHeader{
@@ -55,9 +61,7 @@ input:focus{
         font-size: 14px;
     }
 
-    .joinForm{
-        flex-wrap: wrap;
-    }
+   
 
     .joinForm input {
         height: 45px;
