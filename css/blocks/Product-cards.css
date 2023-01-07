@@ -25,6 +25,8 @@
 
 .product_img {
     display: block;
+    max-width: 270px;
+    max-height: 350px;
 }
 
 .product_title {

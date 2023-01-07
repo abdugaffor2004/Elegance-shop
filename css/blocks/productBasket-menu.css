@@ -1,6 +1,5 @@
 
 .productB {
-    position: fixed;
     max-width: 270px;
     margin-top: 40px;
 }
@@ -39,4 +38,24 @@
     border: 1px solid #bbb9b9;
     outline: none;
     padding-left: 14px;
+}
+
+.productInBasket_line{
+    display: flex;
+    flex-direction: column;
+}
+
+.productInBasket_wrap{
+    display: flex;
+    margin-bottom: 30px;    
+}
+
+.productInBasket_img{
+    max-width: 100px;
+}
+
+.productInBasket_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }

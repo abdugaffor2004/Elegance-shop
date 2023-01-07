@@ -38,7 +38,7 @@ window.addEventListener( 'click', (event) => {
 
     if(event.target.dataset.action === "minus"){ 
 
-        if(parseInt(counter.innerText) > 0){
+        if(parseInt(counter.innerText) > 1){
             --counter.innerText 
         }
 
