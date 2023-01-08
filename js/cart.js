@@ -54,7 +54,7 @@ window.addEventListener('click', (event) => {
     //Отображение корзины пустая или нет
     toggleCartStatus()
 
-    calcCartPrice()
+    calcCartPriceAndDilivery()
 
     }
    

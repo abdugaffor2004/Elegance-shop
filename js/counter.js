@@ -44,12 +44,13 @@ window.addEventListener( 'click', (event) => {
             event.target.closest('.productInBasket').remove()
 
             toggleCartStatus()
+            
         }
         
     }
 
     if(event.target.hasAttribute('data-action') && event.target.closest( '.productInBasket' )){
-        calcCartPrice()
+        calcCartPriceAndDilivery()
     }
 
 } )
