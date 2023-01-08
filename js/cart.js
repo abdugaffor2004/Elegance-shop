@@ -31,9 +31,7 @@ window.addEventListener('click', (event) => {
     
             <div class="productInBasket_info">
             <h3 class="product_title"> ${productInfo.title} </h3>
-                <span data-price class="product_price-new"> $ ${
-                    parseInt(productInfo.price)
-                }.00 </span>                                
+                <span class="product_price-new"> $ <span data-price> ${productInfo.price} </span> </span>                                
             <div class="productInBasket_add">
                 <div class="product_counter">
                     <button class="minus" type="button" data-action="minus"> - </button>
@@ -55,6 +53,8 @@ window.addEventListener('click', (event) => {
     product.querySelector( '[data-counter]' ).innerText = '1'
     //Отображение корзины пустая или нет
     toggleCartStatus()
+
+    calcCartPrice()
 
     }
    

@@ -33,7 +33,6 @@ window.addEventListener( 'click', (event) => {
     if(event.target.dataset.action === "plus"){
 
         ++counter.innerText  
-
     }
 
     if(event.target.dataset.action === "minus"){ 
@@ -47,6 +46,10 @@ window.addEventListener( 'click', (event) => {
             toggleCartStatus()
         }
         
+    }
+
+    if(event.target.hasAttribute('data-action') && event.target.closest( '.productInBasket' )){
+        calcCartPrice()
     }
 
 } )
