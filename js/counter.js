@@ -27,12 +27,12 @@
 
 window.addEventListener( 'click', (event) => {
 
-    const counterWrapper = event.target.closest('.product_counter')  
-    const counter = counterWrapper.querySelector( '[data-counter]' )
+    const counterWrapper = event.target.closest('.product_counter');
+    const counter = counterWrapper.querySelector( '[data-counter]' );
 
     if(event.target.dataset.action === "plus"){
 
-        ++counter.innerText 
+        ++counter.innerText  
 
     }
 
@@ -42,7 +42,9 @@ window.addEventListener( 'click', (event) => {
             --counter.innerText 
         }
         else if( event.target.closest('.productInBasket_wrap') && parseInt( counter.innerText ) === 1 ){
-            event.target.closest('.productInBasket_wrap').remove()
+            event.target.closest('.productInBasket').remove()
+
+            toggleCartStatus()
         }
         
     }
