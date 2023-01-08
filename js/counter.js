@@ -41,7 +41,10 @@ window.addEventListener( 'click', (event) => {
         if(parseInt(counter.innerText) > 1){
             --counter.innerText 
         }
-
+        else if( event.target.closest('.productInBasket_wrap') && parseInt( counter.innerText ) === 1 ){
+            event.target.closest('.productInBasket_wrap').remove()
+        }
+        
     }
 
 } )
