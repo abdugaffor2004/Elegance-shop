@@ -2,7 +2,7 @@
 function calcCartPriceAndDilivery () {
 
    const productInBasket = document.querySelectorAll('.productInBasket')
-   let totalPrice =0;
+   let totalPrice = 0;
    let totalPriceDelivery = 15;
     
     // for( i in productInBasket ){
@@ -27,6 +27,7 @@ function calcCartPriceAndDilivery () {
 
     let deliveryStatus = document.querySelector('.delivery_status') 
     const deliveryBlock = document.querySelector('.delivery')
+    const productInBasket_line = document.querySelector('.productInBasket_line')
 
 
     if(totalPrice === 0){
@@ -36,16 +37,31 @@ function calcCartPriceAndDilivery () {
 
 
 
-    if(totalPrice > 300){
-        document.querySelector('.sumNumber').innerText = totalPrice
-        deliveryStatus.innerText = 'бесплатно'
-        deliveryStatus.style.color = '#099409'
+    if(productInBasket_line.children.length === 0){
+        
+        document.querySelector('.sumNumber').innerText = 0
+        document.querySelector('.sumNumber').innerText =  0
+
     }
+
     else{
-        document.querySelector('.sumNumber').innerText = totalPriceDelivery
-        deliveryStatus.innerText = '15 $'
-        deliveryStatus.style.color = '#F72464'
+
+        if(totalPrice > 300){
+            document.querySelector('.sumNumber').innerText = totalPrice
+            deliveryStatus.innerText = 'бесплатно'
+            deliveryStatus.style.color = '#099409'
+        }
+    
+        else{
+            document.querySelector('.sumNumber').innerText = totalPriceDelivery
+            deliveryStatus.innerText = '15 $'
+            deliveryStatus.style.color = '#F72464'
+        }
+
     }
+
+
+    
 }
 
 
