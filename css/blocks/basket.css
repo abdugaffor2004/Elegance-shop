@@ -70,6 +70,7 @@
 
     .basketProductMenu_wrapper{
         display: none;
+        margin: 0;
     }
 
     .basket_wrapper{
