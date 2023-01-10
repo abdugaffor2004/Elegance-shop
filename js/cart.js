@@ -1,4 +1,4 @@
-const productInBasket_line = document.querySelector('.productInBasket_line')
+
 
 window.addEventListener('click', (event) => {
 
@@ -56,6 +56,8 @@ window.addEventListener('click', (event) => {
 
     calcCartPriceAndDilivery()
 
+    cartNumber()
+
     }
 
 
@@ -67,7 +69,7 @@ window.addEventListener('click', (event) => {
 
 
 
-
+//Адаптив под мобилку корзины
     if(event.target.hasAttribute( 'data-btn' )) {
         
         vanishingWrap.classList.toggle('none')
