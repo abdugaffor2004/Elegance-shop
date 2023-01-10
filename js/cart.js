@@ -57,5 +57,27 @@ window.addEventListener('click', (event) => {
     calcCartPriceAndDilivery()
 
     }
+
+
+
+    //Модальное окно -корзина
+
+    const basketProductMenu_wrapper = document.querySelector('.basketProductMenu_wrapper')
+    const vanishingWrap = document.querySelector('.vanishingWrap')
+
+
+
+
+    if(event.target.hasAttribute( 'data-btn' )) {
+        
+        vanishingWrap.classList.toggle('none')
+        
+            if( vanishingWrap.classList.contains('none') ){
+                basketProductMenu_wrapper.style.display = 'block'
+            }
+            else if(vanishingWrap.classList.contains('none') === false ){
+                basketProductMenu_wrapper.style.display = 'none'
+            }   
+    }
    
 });

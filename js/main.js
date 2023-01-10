@@ -14,8 +14,8 @@ menuBtn_icon.addEventListener("click", () => {
 
     //чтобы крестик оставался при прокрутке сайдбара
     if(document.querySelector('.active')) {
-        menuBtn.style = "position:fixed; margin-left: 60px" ;
-        nav_cart.style = "margin-right: 35px;"
+        menuBtn.style = "position:fixed; margin-left: 45px" ;
+        nav_cart.style = "margin-right: 50px;"
     }
 
     else{
@@ -25,3 +25,17 @@ menuBtn_icon.addEventListener("click", () => {
     
 
 })
+
+
+
+// //Модальное окно -корзина
+
+// const nav_cart_link = document.querySelector('.nav_cart-link')
+// const basketProduct_wrapper = document.querySelector('.basketProduct_wrapper')
+
+// // nav_cart_link.addEventListener('click', () => {
+
+// //     basketProduct_wrapper.remove()
+// //     console.log('boom')
+
+// // })  // Вот это все не работает, но по факту должно (не знаю почему не работает, как то конфликтует с window.addeventlistener в cart.js)

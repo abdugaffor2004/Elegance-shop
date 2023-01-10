@@ -53,49 +53,19 @@ a.nav_logo:hover{
 }
 
 
-
-.nav_cart-link {
+.nav_customer-link {
     position:relative;
     display: inline-block;
     padding: 7px;
     top: 5px;
+    margin-right: 15px;
 }
 
 .nav_cart{
     display: flex;
+    
 }
 
-.nav_cart-number{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50% ;
-    top: -1px;
-    right:-4px;
-    width: 20px;
-    height: 20px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    color: #fff;
-    background: #F72464;
-}
-
-.home{
-    text-decoration: none;
-    color: #000000;
-    opacity: 1;
-    transition: opacity 0.2s ease-in;
-}
-
-.home:hover{
-    opacity: 0.5;
-}
-
-.home:active{
-    color: #F72464;
-}
 
 /* Adaptive */
 
@@ -176,9 +146,6 @@ a.nav_logo:hover{
         color: #fff;
     }
 
-    .nav_cart-link {
-        margin-right: 30px;
-    }
 }
 
 @media(max-width:360px){
